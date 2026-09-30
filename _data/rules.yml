@@ -1,0 +1,26 @@
+rules:
+  heading: "Rules"
+  items:
+    - "You have 90 minutes to build or sketch."
+    - "Work solo or in a pair."
+    - "Build it on the night. Reusing your own snippets is fine."
+    - "AI tools are allowed — just be ready to explain your process."
+
+format:
+  heading: "How to enter"
+  items:
+    - "Create a GitHub repository for your project."
+    - "Put your code and anything else you made in it."
+    - "Post it in the issue thread for your challenge: title, who built it, what it does, the repo URL, and a screenshot."
+
+faq:
+  - q: "Do I need to prepare anything?"
+    a: "No preparation is required. Bring your laptop and a browser. If you plan to contribute to a W3C tool, you can check its contribution guidelines and set up your development environment beforehand."
+  - q: "Do I need to be a TPAC attendee?"
+    a: "The hackathon is open to everyone attending TPAC 2026. If you are in Dublin that week and not registered for TPAC, get in touch."
+  - q: "What if I do not finish?"
+    a: "Submit what you have. Sketches and unfinished prototypes are welcome."
+  - q: "Can I use a framework, or AI?"
+    a: "Yes. Any framework or AI tool is welcome. Be ready to explain your approach."
+  - q: "How is it judged?"
+    a: "By the room. Everyone demos, everyone votes."

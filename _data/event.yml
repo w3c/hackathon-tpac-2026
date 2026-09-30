@@ -1,0 +1,13 @@
+date: "26 October 2026"
+date_iso: "2026-10-26"
+time: "19:00–22:30 GMT"
+datetime_iso: "2026-10-26T19:00:00Z"
+end_datetime_iso: "2026-10-26T22:30:00Z"
+venue: "Clayton Hotel Burlington Road"
+room: "Leinster Suite, ground floor"
+food: "Light dinner provided"
+ics: "/assets/hackathon-tpac-2026.ics"
+
+register_url: "https://www.w3.org/events/meetings/a32ca796-0293-4ea6-a0e7-4149757cb2da/"
+
+standfirst: "Two challenges, 90 minutes to build, and an evening of demos. Bring your laptop and try an idea."

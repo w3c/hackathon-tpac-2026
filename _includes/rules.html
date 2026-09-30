@@ -1,0 +1,9 @@
+{%- assign r = site.data.rules -%}
+<section class="section practical wrap" id="rules" aria-labelledby="rules-title">
+  <div class="section-heading"><h2 id="rules-title">Taking part</h2></div>
+  <div class="rules-grid">
+    <div class="rules-column"><h3>{{ r.rules.heading }}</h3><ul class="rule-list">{% for item in r.rules.items %}<li>{{ item }}</li>{% endfor %}</ul></div>
+    <div class="rules-column"><h3>{{ r.format.heading }}</h3><ol class="entry-list">{% for item in r.format.items %}<li>{{ item }}</li>{% endfor %}</ol></div>
+  </div>
+  {% if r.faq and r.faq.size > 0 %}<div class="faq-layout"><h3 class="faq-heading">FAQ</h3><div class="faq-list">{% for f in r.faq %}<details><summary>{{ f.q }}<span class="faq-symbol" aria-hidden="true"></span></summary><p>{{ f.a }}</p></details>{% endfor %}</div></div>{% endif %}
+</section>

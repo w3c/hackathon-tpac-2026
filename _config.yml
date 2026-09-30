@@ -1,0 +1,11 @@
+# _config.yml
+title: "W3C TPAC hackathon 2026 — Dublin, 26 October"
+description: "Join the W3C TPAC hackathon 2026 in Dublin. Two challenges, 90 minutes to build, and an evening of demos."
+markdown: kramdown
+theme: null
+baseurl: /2026/10/TPAC/hackathon/
+url: https://www.w3.org
+
+# NO `sass:` BLOCK. assets/style.css is plain CSS with no front matter, so
+# Jekyll copies it verbatim and the pinned Ruby Sass converter never touches it.
+# That is what makes @layer, @property, @container, :has() and color-mix() safe.

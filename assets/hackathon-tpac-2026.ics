@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//W3C//Hackathon TPAC 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:hackathon-tpac-2026@w3.org
+DTSTAMP:20260930T000000Z
+SEQUENCE:2
+DTSTART:20261026T190000Z
+DTEND:20261026T223000Z
+SUMMARY:W3C TPAC hackathon 2026\, Dublin
+DESCRIPTION:Visualize standards data or improve a W3C tool. Ninety minutes
+  to build\, followed by demos\, voting\, and prizes.
+  Light dinner provided.
+LOCATION:Clayton Hotel Burlington Road\, Dublin\, Leinster Suite\,
+  ground floor
+URL:https://www.w3.org/2026/10/TPAC/hackathon/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

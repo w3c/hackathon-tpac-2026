@@ -1,0 +1,16 @@
+heading: "Sponsors"
+tba: "Sponsors for 2026 have not been announced yet."
+contact: "mailto:team-tpac-hackathon@w3.org"
+package_url: "https://www.w3.org/news-events/tpac/2026/sponsorship/#hackathon"
+
+# Logos are stored locally and retain their original colors.
+items:
+  - name: "Digital Bazaar"
+    website: "https://www.digitalbazaar.com/"
+    logo: "/assets/images/digital-bazaar-logotype.svg"
+  - name: "Igalia"
+    website: "https://www.igalia.com/"
+    logo: "/assets/images/igalia.svg"
+  - name: "Holopin"
+    website: "https://holopin.io/"
+    logo: "/assets/images/holopin.png"
