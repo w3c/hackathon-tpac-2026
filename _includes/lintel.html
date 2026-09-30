@@ -1,0 +1,8 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="https://www.w3.org" aria-label="W3C home"><img src="{{ '/assets/images/w3c.svg' | relative_url }}" alt="W3C" width="44" height="44" /><span>TPAC <span class="brand-year">2026</span></span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">{% for i in site.data.nav.items %}<a href="#{{ i.id }}">{{ i.label }}</a>{% endfor %}</nav>
+    <a class="header-link" href="{{ site.data.event.register_url }}">Register <span aria-hidden="true">↗</span></a>
+    <details class="mobile-menu"><summary>Menu <span aria-hidden="true">+</span></summary><nav aria-label="Mobile navigation">{% for i in site.data.nav.items %}<a href="#{{ i.id }}">{{ i.label }}</a>{% endfor %}<a href="{{ site.data.event.register_url }}">Register</a></nav></details>
+  </div>
+</header>

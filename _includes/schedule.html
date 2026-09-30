@@ -1,0 +1,7 @@
+{%- assign s = site.data.schedule -%}
+<section class="schedule-section" id="schedule" aria-labelledby="schedule-title">
+  <div class="wrap schedule-layout">
+    <div class="schedule-heading"><h2 id="schedule-title">Schedule</h2><p>{{ site.data.event.date }}<br />All times GMT · Dublin</p><div class="section-divider" aria-hidden="true">{% include shamrock.html %}</div></div>
+    <ol class="timeline">{% for i in s.items %}<li{% if i.text == 'Time to build' %} class="build-slot"{% endif %}><time{% if i.iso %} datetime="{{ i.iso }}"{% endif %}>{{ i.time }}</time><div><h3>{{ i.text }}</h3>{% if i.note %}<p>{{ i.note }}</p>{% endif %}</div></li>{% endfor %}</ol>
+  </div>
+</section>

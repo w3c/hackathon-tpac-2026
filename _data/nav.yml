@@ -1,0 +1,7 @@
+items:
+  - id: challenges
+    label: "Challenges"
+  - id: schedule
+    label: "Schedule"
+  - id: rules
+    label: "Good to know"

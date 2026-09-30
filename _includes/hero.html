@@ -1,0 +1,25 @@
+{%- assign e = site.data.event -%}
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero-main">
+    <div class="hero-copy">
+      <p class="eyebrow">{% include shamrock.html %}<span>Dublin, Ireland · TPAC 2026</span></p>
+      <h1 id="hero-title">W3C TPAC hackathon</h1>
+      <p class="hero-description">{{ e.standfirst }}</p>
+      <div class="hero-actions">
+        {% if e.register_url and e.register_url != "" %}<a class="button button-primary" href="{{ e.register_url }}">Register now <span aria-hidden="true">↗</span></a>{% endif %}
+        <a class="text-link" href="#schedule">See the schedule <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+    <aside class="event-poster" aria-label="Date and location">
+      <div class="poster-details">
+        <div class="poster-heading"><span>{{ e.date_iso | date: '%A' }}</span><span>{{ e.date_iso | date: '%Y' }}</span></div>
+        <p class="poster-date"><time datetime="{{ e.date_iso }}"><span>{{ e.date_iso | date: '%-d' }}</span> {{ e.date_iso | date: '%B' }}</time></p>
+        <p class="poster-time">{{ e.time }}</p>
+      </div>
+      <div class="poster-bottom">
+        <div><p class="poster-city">Dublin<span lang="ga">Baile Átha Cliath</span></p><p class="poster-venue">{{ e.venue }}</p><p class="poster-room">{{ e.room }}</p></div>
+      </div>
+    </aside>
+  </div>
+  <div class="wrap hero-facts"><p>Free for TPAC attendees</p><p>Solo or in pairs</p><p>All experience levels</p><p>{{ e.food }}</p></div>
+</section>

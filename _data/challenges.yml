@@ -1,0 +1,15 @@
+heading: "The challenges"
+
+# Set `lit: true` and fill in heading, description, and examples once announced.
+# The same card works before and after the reveal.
+tracks:
+  - lit: true
+    heading: "Visualize standards data"
+    repo_url: ""
+    description: "Turn standards data into a useful visualization, dashboard, or report."
+    examples: []
+  - lit: true
+    heading: "Improve a W3C tool"
+    repo_url: ""
+    description: "Contribute to your favorite W3C tool: fix a bug, improve documentation, or add a useful feature."
+    examples: []

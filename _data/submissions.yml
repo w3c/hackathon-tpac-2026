@@ -1,0 +1,6 @@
+heading: "Projects"
+empty_note: "Projects from the night will appear here."
+
+# Populated after the event. Each item takes:
+#   {title, description, award, repo_url, demo_url, image, authors:[{name, github}]}
+items: []

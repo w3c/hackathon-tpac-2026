@@ -1,0 +1,20 @@
+{%- assign sp = site.data.sponsors -%}
+<section class="community-block" id="sponsors" aria-labelledby="sponsors-title">
+  <p class="eyebrow">With support from</p><h2 id="sponsors-title">{{ sp.heading }}</h2>
+  {% if sp.items and sp.items.size > 0 %}
+  <ul class="sponsor-list">
+    {% for s in sp.items %}
+    <li>
+      {% if s.placeholder %}
+      <div class="sponsor-placeholder"><span>{{ s.name }}</span><span>Logo to come</span></div>
+      {% else %}
+      {% if s.website and s.website != "" %}<a class="sponsor-logo" href="{{ s.website }}">{% else %}<div class="sponsor-logo">{% endif %}
+        {% if s.logo and s.logo != "" %}<img src="{{ s.logo | relative_url }}" alt="{{ s.name }}" loading="lazy" decoding="async" />{% else %}{{ s.name }}{% endif %}
+      {% if s.website and s.website != "" %}</a>{% else %}</div>{% endif %}
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}<p>{{ sp.tba }}</p><a class="text-link" href="{{ sp.contact }}">Support the hackathon <span aria-hidden="true">↗</span></a>{% endif %}
+  {% if sp.package_url and sp.package_url != "" %}<p class="sponsor-cta"><a class="text-link" href="{{ sp.package_url }}">Hackathon sponsorship package <span aria-hidden="true">↗</span></a></p>{% endif %}
+</section>
