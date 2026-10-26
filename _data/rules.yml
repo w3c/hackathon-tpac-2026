@@ -7,11 +7,11 @@ rules:
     - "AI tools are allowed — just be ready to explain your process."
 
 format:
-  heading: "How to enter"
+  heading: "How to submit"
   items:
-    - "Create a GitHub repository for your project."
+    - "Create a public GitHub repository for your project."
     - "Put your code and anything else you made in it."
-    - "Post it in the issue thread for your challenge: title, who built it, what it does, the repo URL, and a screenshot."
+    - "In the issue thread for your challenge, post your project title, who built it, what it does, the repository URL, and a screenshot."
 
 faq:
   - q: "Do I need to prepare anything?"
