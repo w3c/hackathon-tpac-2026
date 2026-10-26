@@ -2,16 +2,16 @@ rules:
   heading: "Rules"
   items:
     - "You have 90 minutes to build or sketch."
-    - "Work solo or in a pair."
+    - "Work solo — each submission must be your own individual project."
     - "Build it on the night. Reusing your own snippets is fine."
     - "AI tools are allowed — just be ready to explain your process."
 
 format:
-  heading: "How to submit"
+  heading: "How to enter"
   items:
-    - "Create a public GitHub repository for your project."
+    - "Create a GitHub repository for your project."
     - "Put your code and anything else you made in it."
-    - "In the issue thread for your challenge, post your project title, who built it, what it does, the repository URL, and a screenshot."
+    - "Post your entry as a comment in the issue thread for your challenge: project title, your name, what it does, the repository URL, and a screenshot or other visual of your project."
 
 faq:
   - q: "Do I need to prepare anything?"
