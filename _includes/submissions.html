@@ -8,5 +8,5 @@
     {% if s.authors %}<p class="project-authors">{% for a in s.authors %}{% if a.github %}<a href="https://github.com/{{ a.github }}">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>{% endif %}
     <div class="project-links">{% if s.demo_url %}<a href="{{ s.demo_url }}">Demo <span aria-hidden="true">↗</span></a>{% endif %}{% if s.repo_url %}<a href="{{ s.repo_url }}">Code <span aria-hidden="true">↗</span></a>{% endif %}</div>
   </li>{% endfor %}</ul>
-  {% else %}<p>{{ sub.empty_note }}</p><span class="small-note">Available after {{ site.data.event.date_iso | date: '%-d %B' }}.</span>{% endif %}
+  {% else %}<p>{{ sub.empty_note }}</p>{% if site.data.event.submissions_url %}<p><a href="{{ site.data.event.submissions_url }}">See submissions on GitHub <span aria-hidden="true">↗</span></a></p>{% endif %}<span class="small-note">Available after {{ site.data.event.date_iso | date: '%-d %B' }}.</span>{% endif %}
 </section>

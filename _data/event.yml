@@ -9,5 +9,6 @@ food: "Light dinner provided"
 ics: "/assets/hackathon-tpac-2026.ics"
 
 register_url: "https://www.w3.org/register/tpac2026-hackathon"
+submissions_url: "https://github.com/w3c/hackathon-tpac-2026/issues"
 
 standfirst: "Two challenges, 90 minutes to build, and an evening of demos. Bring your laptop and try an idea."
