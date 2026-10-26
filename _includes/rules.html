@@ -4,6 +4,8 @@
   <div class="rules-grid">
     <div class="rules-column"><h3>{{ r.rules.heading }}</h3><ul class="rule-list">{% for item in r.rules.items %}<li>{{ item }}</li>{% endfor %}</ul></div>
     <div class="rules-column"><h3>{{ r.format.heading }}</h3><ol class="entry-list">{% for item in r.format.items %}<li>{{ item }}</li>{% endfor %}</ol></div>
+    {% if r.demos and r.demos.items and r.demos.items.size > 0 %}<div class="rules-column"><h3>{{ r.demos.heading }}</h3><ul class="rule-list">{% for item in r.demos.items %}<li>{{ item }}</li>{% endfor %}</ul></div>{% endif %}
+    {% if r.voting and r.voting.items and r.voting.items.size > 0 %}<div class="rules-column"><h3>{{ r.voting.heading }}</h3><ul class="rule-list">{% for item in r.voting.items %}<li>{{ item }}</li>{% endfor %}</ul></div>{% endif %}
   </div>
   {% if r.faq and r.faq.size > 0 %}<div class="faq-layout"><h3 class="faq-heading">FAQ</h3><div class="faq-list">{% for f in r.faq %}<details><summary>{{ f.q }}<span class="faq-symbol" aria-hidden="true"></span></summary><p>{{ f.a }}</p></details>{% endfor %}</div></div>{% endif %}
 </section>

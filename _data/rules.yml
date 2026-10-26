@@ -2,7 +2,7 @@ rules:
   heading: "Rules"
   items:
     - "You have 90 minutes to build or sketch."
-    - "Work solo or in a pair."
+    - "Work solo — each submission must be your own individual project."
     - "Build it on the night. Reusing your own snippets is fine."
     - "AI tools are allowed — just be ready to explain your process."
 
@@ -11,7 +11,24 @@ format:
   items:
     - "Create a GitHub repository for your project."
     - "Put your code and anything else you made in it."
-    - "Post it in the issue thread for your challenge: title, who built it, what it does, the repo URL, and a screenshot."
+    - "Post your entry as a comment in the issue thread for your challenge: project title, your name, what it does, the repository URL, and a screenshot or other visual of your project."
+
+demos:
+  heading: "Demos"
+  items:
+    - "Each participant gets 60 seconds to demo their project."
+    - "Please have a link, screenshot, GIF, or short recording ready that others can view."
+    - "Keep it snappy: explain what you built, show the coolest part, and tell us why it's interesting."
+    - "No live setup or debugging. We'll save questions and conversations for afterwards."
+
+voting:
+  heading: "Voting"
+  items:
+    - "Everyone gets exactly 3 votes."
+    - "Vote by reacting with 👍 to three different project comments in the GitHub voting issue."
+    - "Please don't vote for your own submission."
+    - "Voting closes at the announced time."
+    - "Each person can win only one prize."
 
 faq:
   - q: "Do I need to prepare anything?"
@@ -23,4 +40,4 @@ faq:
   - q: "Can I use a framework, or AI?"
     a: "Yes. Any framework or AI tool is welcome. Be ready to explain your approach."
   - q: "How is it judged?"
-    a: "By the room. Everyone demos, everyone votes."
+    a: "Everyone gets three votes. After the lightning demos, vote for your three favourite individual submissions by reacting with 👍 in the GitHub voting issue. The most-voted eligible submission wins the main prize, with the other prizes awarded to different participants."
