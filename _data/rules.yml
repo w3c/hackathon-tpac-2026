@@ -11,7 +11,7 @@ format:
   items:
     - "Create a GitHub repository for your project."
     - "Put your code and anything else you made in it."
-    - "Post your entry as a comment in the issue thread for your challenge: project title, your name, what it does, the repository URL, and a screenshot or other visual of your project."
+    - "Post your entry as a comment in the <a href=\"https://github.com/w3c/hackathon-tpac-2026/issues\">issue thread for your challenge</a>: project title, your name, what it does, the repository URL, and a screenshot or other visual of your project."
 
 demos:
   heading: "Demos"
@@ -25,7 +25,7 @@ voting:
   heading: "Voting"
   items:
     - "Everyone gets exactly 3 votes."
-    - "Vote by reacting with 👍 to three different project comments in the GitHub voting issue."
+    - "Vote by reacting with 👍 to three different project comments in the <a href=\"https://github.com/w3c/hackathon-tpac-2026/issues\">GitHub voting issue</a>."
     - "Please don't vote for your own submission."
     - "Voting closes at the announced time."
     - "Each person can win only one prize."
