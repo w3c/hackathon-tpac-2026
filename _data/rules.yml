@@ -13,6 +13,23 @@ format:
     - "Put your code and anything else you made in it."
     - "Post your entry as a comment in the issue thread for your challenge: project title, your name, what it does, the repository URL, and a screenshot or other visual of your project."
 
+demos:
+  heading: "Demos"
+  items:
+    - "Each participant gets 60 seconds to demo their project."
+    - "Please have a link, screenshot, GIF, or short recording ready that others can view."
+    - "Keep it snappy: explain what you built, show the coolest part, and tell us why it's interesting."
+    - "No live setup or debugging. We'll save questions and conversations for afterwards."
+
+voting:
+  heading: "Voting"
+  items:
+    - "Everyone gets exactly 3 votes."
+    - "Vote by reacting with 👍 to three different project comments in the GitHub voting issue."
+    - "Please don't vote for your own submission."
+    - "Voting closes at the announced time."
+    - "Each person can win only one prize."
+
 faq:
   - q: "Do I need to prepare anything?"
     a: "No preparation is required. Bring your laptop and a browser. If you plan to contribute to a W3C tool, you can check its contribution guidelines and set up your development environment beforehand."
@@ -20,9 +37,7 @@ faq:
     a: "The hackathon is open to everyone attending TPAC 2026. If you are in Dublin that week and not registered for TPAC, get in touch."
   - q: "What if I do not finish?"
     a: "Submit what you have. Sketches and unfinished prototypes are welcome."
-  - q: "How do I demo my project?"
-    a: "We won't plug laptops into the projector, so be prepared to share a link, screenshot, GIF, or short recording that others can view."
   - q: "Can I use a framework, or AI?"
     a: "Yes. Any framework or AI tool is welcome. Be ready to explain your approach."
   - q: "How is it judged?"
-    a: "By the room. After the demos, add a 👍 reaction to the project entry you like best in the GitHub issue thread. Please cast one vote only, and do not vote for your own project."
+    a: "Everyone gets three votes. After the lightning demos, vote for your three favourite individual submissions by reacting with 👍 in the GitHub voting issue. The most-voted eligible submission wins the main prize, with the other prizes awarded to different participants."
