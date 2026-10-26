@@ -20,6 +20,8 @@ faq:
     a: "The hackathon is open to everyone attending TPAC 2026. If you are in Dublin that week and not registered for TPAC, get in touch."
   - q: "What if I do not finish?"
     a: "Submit what you have. Sketches and unfinished prototypes are welcome."
+  - q: "How do I demo my project?"
+    a: "We won't plug laptops into the projector, so be prepared to share a link, screenshot, GIF, or short recording that others can view."
   - q: "Can I use a framework, or AI?"
     a: "Yes. Any framework or AI tool is welcome. Be ready to explain your approach."
   - q: "How is it judged?"
