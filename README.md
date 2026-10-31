@@ -17,6 +17,10 @@ ready. Registration appears only when `register_url` is filled in.
 Sponsor names, website links, and local logo paths are in `_data/sponsors.yml`.
 Logo files are kept in `assets/images/` and displayed without recoloring.
 
+Projects are in `_data/submissions.yml`, grouped by challenge in the order they
+were posted to the GitHub submission issues. Set `award` on a project to show a
+label on its card. Screenshots are kept in `assets/projects/` as 960 × 600 WebP files.
+
 Keep the schedule, calendar file, and structured event metadata consistent when
 changing the event time.
 

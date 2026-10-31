@@ -1,6 +1,153 @@
 heading: "Projects"
+standfirst: "Built in 90 minutes on the night. Thank you to everyone who hacked, demoed, and voted."
 empty_note: "Projects from the night will appear here."
 
-# Populated after the event. Each item takes:
-#   {title, description, award, repo_url, demo_url, image, authors:[{name, github}]}
-items: []
+# One group per challenge, in the order projects were posted to its GitHub issue.
+# Each item takes:
+#   {title, description, award, demo_url, video_url, repo_url, post_url, image, authors:[{name, github}]}
+# Images live in assets/projects/ as 960 × 600 WebP files.
+groups:
+  - heading: "Visualize standards data"
+    issue_url: "https://github.com/w3c/hackathon-tpac-2026/issues/4"
+    items:
+      - title: "State of Web Standards"
+        description: "A live dashboard over w3c/browser-specs: 800+ specs, who owns them, and how mature they are. Clickable charts filter a searchable, deep-linkable spec explorer."
+        demo_url: "https://dingjethw.github.io/task1/"
+        repo_url: "https://github.com/dingjethw/task1"
+        image: "/assets/projects/state-of-web-standards.webp"
+        authors:
+          - { name: "Jet Ding", github: "dingjethw" }
+
+      - title: "Web Platform Planet"
+        description: "26 years of caniuse.com data as a living planet: every feature is a mountain that grows as browser support spreads. Rendered with WebGPU, steered by head pose through WebNN, and driven by voice."
+        video_url: "https://youtu.be/jw-lrue9Hqk"
+        repo_url: "https://github.com/christianliebel/tpac-2026-hackathon"
+        image: "/assets/projects/web-platform-planet.webp"
+        authors:
+          - { name: "Christian Liebel", github: "christianliebel" }
+
+      - title: "ASKM Explorer"
+        description: "Pivot between WCAG and other accessibility standards to see how they overlap and differ, built on the Accessibility Standards Knowledge Model."
+        demo_url: "https://mitchellevan.github.io/accessibility-standards-knowledge-model/app/index.html"
+        repo_url: "https://github.com/mitchellevan/accessibility-standards-knowledge-model"
+        image: "/assets/projects/askm-explorer.webp"
+        authors:
+          - { name: "Mitchell Evan", github: "mitchellevan" }
+
+      - title: "Horizontal Review Dashboard"
+        award: "Winner"
+        description: "Shows horizontal review progress for a given spec, without scanning through countless labels and issues."
+        demo_url: "https://toreini.github.io/projects/horizontal_review_radar.html"
+        repo_url: "https://github.com/toreini/horizontal-review-tracker"
+        image: "/assets/projects/horizontal-review-dashboard.webp"
+        authors:
+          - { name: "Ehsan Toreini", github: "toreini" }
+          - { name: "Muadh Alkalbani" }
+
+      - title: "Open Source Software at W3C"
+        description: "A first visualization of the open-source projects W3C develops or relies on, maintained in w3c/ossref, to replace the outdated Open Source Software page."
+        demo_url: "https://tidoust.github.io/ossref-viz/"
+        repo_url: "https://github.com/tidoust/ossref-viz"
+        image: "/assets/projects/ossref-viz.webp"
+        authors:
+          - { name: "François Daoust", github: "tidoust" }
+
+      - title: "Awesome Browser Specs"
+        description: "A demoscene production about every spec the web runs on, in eight parts, with a soundtrack and robot voices synthesized live in the browser."
+        demo_url: "https://tomayac.github.io/awesome-browser-specs/"
+        repo_url: "https://github.com/tomayac/awesome-browser-specs"
+        image: "/assets/projects/awesome-browser-specs.webp"
+        authors:
+          - { name: "Thomas Steiner", github: "tomayac" }
+
+      - title: "Funder dashboard for W3C specs"
+        description: "Enter a spec shortname for live facts on its time in process, editors, horizontal review, and repository activity, framed to help public-interest funders see where investment could help."
+        demo_url: "https://tarakiyee.github.io/funder-dashboard-w3c/"
+        repo_url: "https://github.com/tarakiyee/funder-dashboard-w3c"
+        image: "/assets/projects/funder-dashboard.webp"
+        authors:
+          - { name: "Tara Tarakiyee", github: "tarakiyee" }
+
+      - title: "Time-to-REC"
+        award: "Winner"
+        description: "How long do W3C specs take? Thirty years of /TR history as time to Recommendation by Working Group, a publication heatmap, and the specs still waiting."
+        demo_url: "https://alan33d.github.io/time-to-rec/"
+        repo_url: "https://github.com/alan33d/time-to-rec"
+        image: "/assets/projects/time-to-rec.webp"
+        authors:
+          - { name: "Alan Ding", github: "alan33d" }
+
+      - title: "WebRef Visualized"
+        award: "Winner"
+        description: "Visualizes the references between specifications."
+        demo_url: "https://reillyeon.github.io/webref-visualized"
+        repo_url: "https://github.com/reillyeon/webref-visualized"
+        image: "/assets/projects/webref-visualized.webp"
+        authors:
+          - { name: "Reilly Grant", github: "reillyeon" }
+
+      - title: "Symbol Viewer"
+        description: "A browser extension that shows content marked up with the Adapt TF's proposed AAC Symbols markup in a choice of two symbol sets."
+        repo_url: "https://github.com/matatk/symbol-viewer/"
+        image: "/assets/projects/symbol-viewer.webp"
+        authors:
+          - { name: "Matthew Tylee Atkinson", github: "matatk" }
+
+  - heading: "Improve a W3C tool"
+    issue_url: "https://github.com/w3c/hackathon-tpac-2026/issues/5"
+    items:
+      - title: "Agents with Legal Agency"
+        description: "Gives an AI agent a Data Rights Credential (VC 2.0, iSHARE profile) that data custodians verify against a trusted list before releasing data, sending signed receipts back to the owner."
+        demo_url: "https://agentic.authorizer.eu"
+        repo_url: "https://github.com/iSHAREScheme/legal-agency-for-agents"
+        image: "/assets/projects/legal-agency-for-agents.webp"
+        authors:
+          - { name: "Gerard van der Hoeven", github: "gvdho" }
+
+      - title: "W3C Dory"
+        award: "Winner"
+        description: "A Chrome extension that keeps you logged in to W3C and, after logging in, takes you back to the page you were heading to."
+        repo_url: "https://github.com/tomayac/w3c-dory"
+        image: "/assets/projects/w3c-dory.webp"
+        authors:
+          - { name: "Thomas Steiner", github: "tomayac" }
+
+      - title: "WebIDL checker fix"
+        description: "The parser behind W3C's WebIDL checker rejected reserved identifiers like toString as argument names, which the spec allows. Fixed with tests and sent upstream."
+        demo_url: "https://dingjethw.github.io/task2/checker/"
+        repo_url: "https://github.com/w3c/webidl2.js/pull/849"
+        image: "/assets/projects/webidl-checker.webp"
+        authors:
+          - { name: "Jet Ding", github: "dingjethw" }
+
+      - title: "SpecQuest"
+        description: "Turns W3C specs into an 8-bit, NES-style quiz game right on the page, with pixel visuals and chiptune sound effects. Sound on!"
+        video_url: "https://kzms2.github.io/hackathon-tpac-2026/hackathon2026demo.mp4"
+        repo_url: "https://github.com/kzms2/hackathon-tpac-2026"
+        image: "/assets/projects/specquest.webp"
+        authors:
+          - { name: "Kazumasa Okabe", github: "kzms2" }
+
+      - title: "ReSpec to EPUB"
+        description: "Download a long W3C document as an EPUB to read on an e-book reader, reviving an idea from ReSpec's earlier EPUB export."
+        demo_url: "https://denkeni.org/sustainableweb-wsg/"
+        repo_url: "https://github.com/denkeni/sustainableweb-wsg/commit/875fd0264b9d4c719f7ae51b30b0f2314426d99b"
+        image: "/assets/projects/respec-epub.webp"
+        authors:
+          - { name: "Denken Chen", github: "denkeni" }
+
+      - title: "Resurrect W3C-LogValidator!"
+        description: "What it takes to run W3C's Perl LogValidator in 2026, from an unreachable CVS server to long-deprecated syntax, and a case for moving it to GitHub."
+        post_url: "https://github.com/w3c/hackathon-tpac-2026/issues/5#issuecomment-6427185418"
+        image: "/assets/projects/logvalidator.webp"
+        authors:
+          - { name: "David Benoit", github: "davidbenoit" }
+
+      - title: "CSS Types"
+        description: "A proposed WebRef feature: pick a CSS data type to list every property, at-rule, and function that accepts it."
+        demo_url: "https://estelle.github.io/CSSTypes/"
+        repo_url: "https://github.com/estelle/CSSTypes"
+        image: "/assets/projects/css-types.webp"
+        authors:
+          - { name: "Romain Menke", github: "romainmenke" }
+          - { name: "Estelle Weyl", github: "estelle" }
