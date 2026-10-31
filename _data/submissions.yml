@@ -93,6 +93,13 @@ groups:
         authors:
           - { name: "Matthew Tylee Atkinson", github: "matatk" }
 
+      - title: "canivc.com redesign"
+        description: "A new look for Can I VC?, the community compatibility dashboard for Verifiable Credentials, replacing its Fomantic UI styles with a custom stylesheet. Finished just after build time."
+        repo_url: "https://github.com/w3c-oss/canivc/pull/81"
+        image: "/assets/projects/canivc-redesign.webp"
+        authors:
+          - { name: "Benjamin Young", github: "BigBlueHat" }
+
   - heading: "Improve a W3C tool"
     issue_url: "https://github.com/w3c/hackathon-tpac-2026/issues/5"
     items:
