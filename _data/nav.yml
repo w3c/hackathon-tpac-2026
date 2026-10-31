@@ -1,4 +1,6 @@
 items:
+  - id: projects
+    label: "Projects"
   - id: challenges
     label: "Challenges"
   - id: schedule

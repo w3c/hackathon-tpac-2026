@@ -5,13 +5,13 @@ description: "Join the W3C TPAC hackathon 2026 in Dublin. Two challenges, 90 min
 ---
 
 {% include hero.html %}
+{% include submissions.html %}
 {% include challenges.html %}
 {% include schedule.html %}
 {% include rules.html %}
 
 <div class="community">
   <div class="wrap community-grid">
-    {% include submissions.html %}
     {% include sponsors.html %}
   </div>
 </div>
